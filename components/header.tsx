@@ -29,9 +29,9 @@ export const Header = () => {
   }, [setHamburgerMenuIsOpen]);
 
   return (
-    <header className="fixed top-0 left-0 z-10 w-full border-b border-transparent-white">
+    <header className="fixed top-0 left-0 py-3 z-[9999] w-full border-b border-transparent-white bg-black">
       <Container className="flex h-navigation-height">
-        <Link className="flex items-center text-md" href="/">
+        <Link className="flex items-center text-lg font-bold" href="/">
           <Logo className="mr-4 h-[1.8rem] w-[1.8rem]" /> Metricslink
         </Link>
 
@@ -57,20 +57,20 @@ export const Header = () => {
               )}
             >
               <li>
-                <Link href="#data-engine">Data Engine</Link>
+                <Link className='text-[16px] font-medium' href="#data-engine">Data Engine</Link>
               </li>
               <li className="md:hidden lg:block">
-                <Link href="#solutions">Solutions</Link>
+                <Link  className='text-[16px] font-medium'href="#solutions">Solutions</Link>
               </li>
               <li className="md:hidden lg:block">
-                <Link href="/pricing">Pricing</Link>
+                <Link className='text-[16px] font-medium' href="/pricing">Pricing</Link>
               </li>
             </ul>
           </nav>
         </div>
 
         <div className="ml-auto flex h-full items-center">
-          <Button href="#">Book a Demo</Button>
+          <Button  href="#">Book a Demo</Button>
         </div>
 
         <button

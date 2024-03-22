@@ -20,7 +20,7 @@ const AccordionItem = ({ title, children }: AccordionItemProps) => {
   return (
     <div className="mb-2 border-b border-gray-200">
       <button
-        className="flex justify-between items-center w-full py-3 px-5 bg-gray-100 hover:bg-gray-200 focus:outline-none"
+        className="flex justify-between items-center w-full py-3 px-5 bg-gray-100 hover:bg-gray-200 focus:outline-none text-[16px] sm:text-[24px] font-semibold"
         onClick={() => setIsOpen(!isOpen)}
       >
         {title}
@@ -30,7 +30,7 @@ const AccordionItem = ({ title, children }: AccordionItemProps) => {
         className="overflow-hidden transition-height duration-500 ease-in-out"
         style={{ height: contentHeight }}
       >
-        <div className="p-5" ref={contentRef}>
+        <div className="p-5 font-medium capitalize text-primary-text text-[14px] sm:text-[18px]" ref={contentRef}>
           {children}
         </div>
       </div>

@@ -4,10 +4,10 @@ import { Container } from "./container";
 export const PromotionDataEngine = () => {
     return (
       <Container>
-        <div className="pt-16 pb-16">    
+        <div className="pt-16 pb-16">
             <div className="h-[48rem] overflow-hidden md:h-auto md:overflow-auto">
-            <div className="flex snap-x snap-mandatory gap-6 overflow-x-auto px-8 justify-center pb-12 md:flex-wrap md:overflow-hidden">
-              <div className="relative flex w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background p-8 text-left md:max-w-[calc(24%-12px)] md:basis-[calc(66.66%-12px)] md:p-9">
+            <div className="flex flex-col items-center lg:flex-row snap-x snap-mandatory gap-6 overflow-x-auto px-8 justify-center pb-12 md:flex-wrap md:overflow-hidden">
+              <div className="relative flex max-w-[245px] w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background p-8 text-left   md:p-9">
                 <p className="text-md">34% increases</p>
                 <p className="text-md text-grey">
                 in site conversions.
@@ -16,7 +16,7 @@ export const PromotionDataEngine = () => {
               <VercelLogo />
               </div>
              </div>
-             <div className="relative flex w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background yellow p-8 text-left md:basis-[calc(24%-12px)] md:p-9">
+             <div className="relative flex max-w-[245px] w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background yellow p-8 text-left  md:p-9">
              <p className="text-md">6x faster</p>
                 <p className="text-md text-grey">
                 to build + deploy.
@@ -25,7 +25,7 @@ export const PromotionDataEngine = () => {
               <VercelLogo />
               </div>
              </div>
-             <div className="relative flex w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background yellow p-8 text-left md:basis-[calc(24%-12px)] md:p-9">
+             <div className="relative flex max-w-[245px] w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background yellow p-8 text-left  md:p-9">
              <p className="text-md">1 year</p>
                 <p className="text-md text-grey">
                 of development saved.
@@ -34,7 +34,7 @@ export const PromotionDataEngine = () => {
               <VercelLogo />
               </div>
              </div>
-             <div className="group relative flex w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background p-8 text-left md:basis-[calc(24%-12px)] md:p-9">
+             <div className="group relative  max-w-[245px] flex w-full shrink-0 snap-center flex-col justify-end overflow-hidden rounded-[0.8rem] border border-transparent-white bg-background p-8 text-left  md:p-9">
              <p className="text-md">60% increase</p>
                 <p className="text-md text-grey">
                 in page speeds.

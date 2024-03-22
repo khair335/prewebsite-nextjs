@@ -9,6 +9,7 @@ import { Fixedslider } from '@/components/fixedslider';
 import { Infosection } from '@/components/infosection';
 import { Beforeafter } from '@/components/beforeafter';
 import Accordion from '@/components/Accordion';
+import Markter from '@/components/markter';
 
 
 export default function Home() {
@@ -23,9 +24,10 @@ export default function Home() {
       <Infosection />
       <HeroSolutions />
       <PromotionDataEngine />
-      <Beforeafter />
+      {/* <Beforeafter /> */}
       <Accordion />
       <Started />
+      <Markter/>
     </>
   );
 }

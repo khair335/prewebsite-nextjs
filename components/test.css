@@ -1,0 +1,25 @@
+.red-arrow:after {
+  border-color: transparent #e5484d transparent transparent;
+
+}
+
+.red-arrow:before {
+  border-color: transparent transparent transparent #e5484d;
+
+}
+
+.green-arrow:after {
+  border-color: transparent #0c9784 transparent transparent;
+
+}
+
+.green-arrow:before {
+  border-color: transparent transparent transparent #0c9784;
+
+}
+
+.gray-arrow:after {
+  border-width: 10px 5px 0;
+  border-color: #2e2e2e transparent transparent transparent;
+  /* bottom: calc(var(--offset)* -1); */
+}
